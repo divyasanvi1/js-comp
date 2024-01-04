@@ -21,4 +21,7 @@ symbol =unique
 console.log(typeof "divya");
 console.log(typeof 18);
 console.log(typeof true);
+console.log(typeof  null);
+console.log(typeof undefined);
+
 
