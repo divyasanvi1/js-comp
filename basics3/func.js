@@ -33,13 +33,13 @@ function sayMyName()
 // const result=addTwoNumbers(5,3)
 // console.log("result", result) 
 
-function loginMessage(username)
+function loginMessage(username="sam")
 {
-    if(username===undefined)
-    {
-        console.log("please enter a user name")
-        return
-    }
+    // if(username===undefined)
+    // {
+    //     console.log("please enter a user name")
+    //     return
+    // }
     return `${username} Just logged in`
 }
 console.log(loginMessage("divya")); // loginMessage() got the value returned by function then we print the value
